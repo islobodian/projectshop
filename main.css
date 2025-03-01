@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+header{
+    background-color: rgb(238, 227, 252);
+    height: 901px;
+    margin: 0;
+}
+.header_sec{
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    top: 0px;
+    display: flex;
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+    
+    
+}
+.b1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 1390px;
+    top: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family:Montserrat;
+    color: rgb(60, 19, 19);
+    background-color: white;
+    padding: 10px px;
+    }
+.b2{
+    color: rgb(60, 19, 19);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px px;
+    gap: 10px;
+    font-size: 13px;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 1300px;
+    top: 16px;
+    font-family:Montserrat ;
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+}
+nav a{
+    color: rgb(60, 19, 19);
+    text-decoration: none;
+    font-family: Montserrat;
+    
+}
+nav{
+    /* header__nav */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 499px;
+    height: 26px;
+    left: 350px;
+    
+    margin-top: 8px;
+    
+
+
+}           
+.p2{
+        font-family:  Montserrat;
+        font-weight: 600;
+        font-size: 90px;
+        line-height: 58.51px;
+        
+
+}
+.p1 {
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.main{
+    /* main-container */
+
+position: absolute;
+width: 645px; 
+height: 395px;
+left: 80px;
+top: 200px;
+right: 500px;
+
+
+}
+.nav{
+    display: inline-flex;
+    
+}
+.p3{
+    
+
+    position: absolute;
+    width: 643px;
+    height: 84px;
+    left: 0px;
+    top: 290px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 28px */
+    
+    color: #000000;
+    
+    
+    }
+.b3{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    gap: 10px;
+
+    position: absolute;
+    width: 180px;
+    height: 54px;
+    font-size: 15;
+    top: 400px;
+    color: white;
+
+    background: black;
+    border-radius: 121px;
+
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+}
+.main_sec1{
+    margin-left: 22px;
+}
+.new_a{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+}
+.img1{
+    margin-left: 780px;
+    width: 700px;
+    margin-top: 70px;
+}
+.new_a_card1{
+    margin-left: 30px;
+    width: 250px;
+    
+}
+
+
+.new_a_cards1{
+    display: flex;
+    
+}
+
+
+.img4{
+    width:230px;
+}
+.new_a_card4{
+    margin-left: 40px;
+    width: 250px;
+   
+}
+.new_a_cards2{
+    display: flex;
+    margin-top: 30px;
+}
+.sale_cards1{
+    display: flex;
+    margin-top: 30px;
+}
+.ac_cards1{
+    display: flex;
+    margin-top: 30px;
+}
+.vidh1{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+.vid_card{
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.vidh3{
+    position: relative;
+    margin-left: 20px;
+}
+.vidp{
+    
+    margin-left: 20px;
+}
+.vid_cards{
+    display: flex;
+}
