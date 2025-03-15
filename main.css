@@ -6,56 +6,57 @@ body{
 
 header{
     background-color: rgb(238, 227, 252);
-    height: 901px;
+    
     margin: 0;
+   
 }
 .header_sec{
     position: absolute;
     width: 100%;
-    height: 52px;
-    top: 0px;
+    height: 8%;
+    top: 0;
     display: flex;
     background-color: white;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 0%;
     
     
 }
 .b1{
     box-sizing: border-box;
     position: absolute;
-    width: 80px;
-    height: 40px;
-    left: 1390px;
-    top: 16px;
+    width: 6%;
+    height: 50%;
+    left: 83%;
+    top: 25%;
     border: 1px solid black;
     border-radius: 5px;
     font-family:Montserrat;
-    color: rgb(60, 19, 19);
+    color: black;
     background-color: white;
-    padding: 10px px;
+    padding: ;
     }
 .b2{
-    color: rgb(60, 19, 19);
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px px;
+    padding: ;
     gap: 10px;
-    font-size: 13px;
+    
     position: absolute;
-    width: 80px;
-    height: 40px;
-    left: 1300px;
-    top: 16px;
+    width: 6%;
+    height: 50%;
+    left: 90%;
+    top: 25%;
     font-family:Montserrat ;
     border: 1px solid black;
     background: white;
     border-radius: 5px;
 }
 nav a{
-    color: rgb(60, 19, 19);
+    color:black;
     text-decoration: none;
     font-family: Montserrat;
     
@@ -67,82 +68,114 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    gap: 30px;
+    
+    gap: 2%;
 
     position: absolute;
-    width: 499px;
-    height: 26px;
-    left: 350px;
+    width: 70%;
     
-    margin-top: 8px;
+    height: 30%;
+    left: 30%;
+    
+    top: 30%;
     
 
 
 }           
-.p2{
-        font-family:  Montserrat;
-        font-weight: 600;
-        font-size: 90px;
-        line-height: 58.51px;
-        
 
+.fing{
+    width: 40%;
+    margin-left: 5%;
+    background-color: ;
+    margin-top: 20%;
+    position: absolute;
+}
+.find2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 180%;
+    color: black;
+}
+.find{
+    font-family: "Abril Fatface", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 500%;
+    width: 80%;
+    line-height: 85%;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 5%;
+}
+.shop_b{
+    width: 20%;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color:black ;
+    color: white;
 }
 .p1 {
-    margin-left: 10px;
-    margin-top: 9px;
+    margin-left: 2%;
+    
+        font-family: "Spicy Rice", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 140%;
+    margin-top: 1%;
+      
+}
+.p1f {
+    color: #000000;
+    margin-left: 1%;
+        font-family: "Spicy Rice", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 180%;
+    margin-top: 3%;
+}
+.p_f{
+    margin-left: 1%;
+    font-size: 150%;
+    margin-bottom: 2%;
 }
 
+
 .main{
+
     /* main-container */
 
 position: absolute;
-width: 645px; 
-height: 395px;
-left: 80px;
-top: 200px;
-right: 500px;
+width: 40%; 
+height: 50%;
+left: 5%;
+top: 30%;
+right: 60%;
 
 
 }
 .nav{
     display: inline-flex;
+    width: 100%;
     
 }
-.p3{
-    
 
-    position: absolute;
-    width: 643px;
-    height: 84px;
-    left: 0px;
-    top: 290px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 140%;
-    /* or 28px */
-    
-    color: #000000;
-    
-    
-    }
 .b3{
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15px 50px;
-    gap: 10px;
-
+    padding: 2%;
+    gap: 0;
+    margin-left: 5%;
     position: absolute;
-    width: 180px;
-    height: 54px;
-    font-size: 15;
-    top: 400px;
+    width: 11%;
+    height: 4%;
+    font-size: 100%;
+    top: 100%;
     color: white;
 
     background: black;
@@ -152,59 +185,77 @@ right: 500px;
 main{
     margin: 0;
     padding: 0;
-}
-.search{
-    text-align: center;
-    background-color: #000000;
-    color: white;
-    margin-top: 0px;
-    padding: 10px;
-}
-.main_sec1{
-    margin-left: 22px;
-}
-.new_a{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 150px;
-}
-.img1{
-    margin-left: 780px;
-    width: 700px;
-    margin-top: 70px;
-}
-.new_a_card1{
-    margin-left: 30px;
-    width: 250px;
     
 }
+.search{
+    text-align: ;
+    background-color: #000000;
+    color: white;
+    margin-top: 0;
+    height: 4%;
+    
+}
+.main_sec1{
+    
+}
+.new_a{
+    font-size: 300%;
+    text-align: center;
+    margin-top: 11%;
+}
+.img1{
+    margin-left: 52%;
+    width: 47%;
+    margin-top: 5%;
+}
+
 
 
 .new_a_cards1{
     display: flex;
-    
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
 .img4{
-    width:230px;
+    width:90%;
+    margin-top: 6%;
 }
 .new_a_card4{
-    margin-left: 40px;
-    width: 250px;
-   
+    margin-left: 5%;
+    width: 70%;
+    border: 1px solid white;
+    padding-left: 2%;
+   border-radius: 10px;
+   background-color: rgb(238, 227, 252);
+}
+.new_a_card1{
+    margin-left: 0;
+    width: 70%;
+    border: 1px solid white;
+    padding-left: 2%;
+    border-radius: 10px;
+    background-color: rgb(238, 227, 252);
 }
 .new_a_cards2{
     display: flex;
-    margin-top: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .sale_cards1{
     display: flex;
-    margin-top: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .ac_cards1{
     display: flex;
-    margin-top: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .vidh1{
     font-size: 50px;
@@ -214,19 +265,128 @@ main{
 .vid_card{
     width: 400px;
     height: 150px;
-    border: 2px solid black;
+    border: 1px solid grey;
     margin: 10px;
-    background-color: aqua;
+    background-color;
     border-radius: 20px;
+    padding-bottom: %;
 }
 .vidh3{
     position: relative;
     margin-left: 20px;
+    color: yellow;
 }
 .vidp{
-    
+    color: rgb(54, 54, 54);
     margin-left: 20px;
 }
 .vid_cards{
     display: flex;
+}
+.b_sale{
+    background-color: ;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    
+}
+p{
+    font-size: 110%;
+    color: rgb(54, 54, 54)
+}
+.imgf{
+    width: 5%;
+    margin-left: 1%;
+}
+.star{
+    width: 7%;
+    
+}
+.stars{
+    margin-left: 4%;
+}
+@media (max-width:1080px){
+    .img1{
+        margin-left: 42%;
+        width: 47%;
+        margin-top: 3%;
+    }
+    header{
+      
+        width: 100%;
+        
+
+    }
+    .header_sec{
+        width: 100%;
+        height: 7%;
+
+        
+    }
+    .nav{
+        width: 20%;
+        
+    }
+    .main{
+        width: 20%;
+        height: 20%;
+        top: 15%;
+        left: 5%;
+    }
+    .b1{
+       left: 75%;
+       width: 8%;
+    }
+    .b2{
+        left: 88%;
+        width: 8%;
+    }
+    nav{
+        left: 20%;
+    }
+    .p1{
+        margin-left: 10%;
+    }
+    .p2{
+        
+        
+        
+    }
+    .p3{
+        
+        
+   
+    
+    
+    }
+    .b3{
+       
+    
+    }
+    main{
+        width: 100%;
+    }
+    .main_sec1{
+        
+    }
+    p{
+        font-size: 90%;
+    }
+    .new_a{
+        font-size: 180%;
+    }
+    .vidh1{
+        font-size: 190%;
+    }
+}
+
+
+@media (max-width:720px){
+    header{
+      
+        width: 100%;
+        
+
+    }
 }
