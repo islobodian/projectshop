@@ -223,6 +223,11 @@ main{
     width:90%;
     margin-top: 6%;
 }
+.see_more{
+   margin-top: 6%;
+   margin-left: 45%;
+   padding: 2%;
+}
 .new_a_card4{
     margin-left: 5%;
     width: 70%;
@@ -348,22 +353,7 @@ p{
     .p1{
         margin-left: 10%;
     }
-    .p2{
-        
-        
-        
-    }
-    .p3{
-        
-        
-   
-    
-    
-    }
-    .b3{
-       
-    
-    }
+
     main{
         width: 100%;
     }
@@ -384,9 +374,10 @@ p{
 
 @media (max-width:720px){
     header{
-      
         width: 100%;
-        
-
+    }
+    .new_a_cards1{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
