@@ -236,6 +236,12 @@ main{
    border-radius: 10px;
    background-color: rgb(238, 227, 252);
 }
+.new_a_card4:hover {
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.1);
+    transition-duration: .2s;
+}
+
 .new_a_card1{
     margin-left: 0;
     width: 70%;
@@ -244,8 +250,13 @@ main{
     border-radius: 10px;
     background-color: rgb(238, 227, 252);
 }
+.new_a_card1:hover {
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.1);
+    transition-duration: .2s;
+}
 .new_a_cards2{
-    display: flex;
+    display: none;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;

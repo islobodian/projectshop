@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .box { width: 100px; height: 100px; margin: 20px auto; background: lightgray; transition: background 0.5s; }
+        .hidden { display: none; }
+        .fade { opacity: 0; transition: opacity 1s; }
+        .slide { transform: translateX(-100%); transition: transform 1s; }
+        .scale { transform: scale(1); transition: transform 0.5s; }
+        .rotate { transform: rotate(0deg); transition: transform 0.5s; }
+       
+    </style>
+</head>
+<body>
+   
+    <button onclick="changeColor()">Change Background Color</button>
+    <div class="box" id="colorBox"></div>
+   
+    <hr>
+   
+    <button onclick="toggleFade()">Fade In/Out</button>
+    <div class="box fade" id="fadeBox"></div>
+   
+    <hr>
+   
+    <button onclick="slideIn()">Slide In</button>
+    <div class="box slide" id="slideBox"></div>
+   
+    <hr>
+   
+    <button onclick="bounceBox()">Bounce</button>
+    <div class="box" id="bounceBox"></div>
+   
+    <hr>
+   
+    <button onclick="scaleBox()">Scale Up/Down</button>
+    <div class="box scale" id="scaleBox"></div>
+   
+    <hr>
+   
+    <button onclick="rotateBox()">Rotate</button>
+    <div class="box rotate" id="rotateBox"></div>
+   
+    <hr>
+   
+    <p id="text" onmouseover="changeTextColor()" onmouseout="resetTextColor()">Hover over me to change color</p>
+   
+    <hr>
+   
+    <img id="image" src="https://inweb.ua/blog/wp-content/uploads/2024/05/hamster-kombat-mozhe-buti-1120x588.jpg" onclick="changeImage()" width="200">
+   
+    <hr>
+   
+    <img id="zoomImage" src="https://inweb.ua/blog/wp-content/uploads/2024/05/hamster-kombat-mozhe-buti-1120x588.jpg" width="200" onmouseover="zoomIn()" onmouseout="zoomOut()">
+   
+    <hr>
+   
+    <p id="blinkText">Blinking Text</p>
+   
+    <script>
+        function changeColor() {
+            const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
+            document.getElementById('colorBox').style.background = colors[Math.floor(Math.random() * colors.length)];
+        }
+       
+        function toggleFade() {
+            let box = document.getElementById('fadeBox');
+            box.classList.toggle('fade');
+        }
+       
+        function slideIn() {
+            let box = document.getElementById('slideBox');
+            box.classList.toggle('slide');
+        }
+       
+        function bounceBox() {
+            let box = document.getElementById('bounceBox');
+            box.style.transition = 'transform 0.5s ease-in-out';
+            box.style.transform = 'translateY(-20px)';
+            setTimeout(() => {
+                box.style.transform = 'translateY(0)';
+            }, 500);
+        }
+       
+        function scaleBox() {
+            let box = document.getElementById('scaleBox');
+            box.style.transform = box.style.transform === 'scale(1.5)' ? 'scale(1)' : 'scale(1.5)';
+        }
+       
+        function rotateBox() {
+            let box = document.getElementById('rotateBox');
+            let currentRotation = box.style.transform.match(/rotate\((\d+)deg\)/);
+            let newRotation = currentRotation ? parseInt(currentRotation[1]) + 45 : 45;
+            box.style.transform = `rotate(${newRotation}deg)`;
+        }
+       
+        function changeTextColor() {
+            document.getElementById('text').style.color = 'red';
+        }
+       
+        function resetTextColor() {
+            document.getElementById('text').style.color = 'black';
+        }
+       
+        function changeImage() {
+            let img = document.getElementById('image');
+            img.src = img.src.includes('https://cdn.gamestatic.net/files/gameland/publications/aeee0a50-1dd3-11ef-b322-005056891452/article/pic_list_m.jpg') ? 'https://inweb.ua/blog/wp-content/uploads/2024/05/hamster-kombat-mozhe-buti-1120x588.jpg' : 'https://cdn.gamestatic.net/files/gameland/publications/aeee0a50-1dd3-11ef-b322-005056891452/article/pic_list_m.jpg';
+        }
+       
+        function zoomIn() {
+            document.getElementById('zoomImage').style.transform = 'scale(1.5)';
+        }
+       
+        function zoomOut() {
+            document.getElementById('zoomImage').style.transform = 'scale(1)';
+        }
+       
+        setInterval(() => {
+            let text = document.getElementById('blinkText');
+            text.style.visibility = text.style.visibility === 'hidden' ? 'visible' : 'hidden';
+        }, 500);
+    </script>
+</body>
+</html>
+
+
+
