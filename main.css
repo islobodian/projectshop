@@ -5,10 +5,11 @@ body{
 }
 
 header{
-    background-color: rgb(238, 227, 252);
-    
+    hhbackground-color: rgb(238, 227, 252);
+    mbackground: linear-gradient( rgb(67, 0, 130), rgb(235, 234, 234) 70%);
     margin: 0;
-   
+    
+    background: url(purple\ aura\ wallpaper.jpg);
 }
 .header_sec{
     position: absolute;
@@ -109,6 +110,17 @@ nav{
     margin: 0;
     margin-bottom: 5%;
 }
+.your{
+    color: indigo;
+}
+
+.style{
+    color: 		#fffb00;
+    font-family: "Akronim", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 105%;
+}
 .shop_b{
     width: 20%;
     padding: 2%;
@@ -185,6 +197,9 @@ right: 60%;
 main{
     margin: 0;
     padding: 0;
+   background-color: white;
+    
+   padding-top: 10%
     
 }
 .search{
@@ -196,12 +211,23 @@ main{
     
 }
 .main_sec1{
-    
+    margin: 0;
 }
 .new_a{
     font-size: 300%;
     text-align: center;
-    margin-top: 11%;
+    margin-top: 8%;
+    font-family: "Abril Fatface", serif;
+    font-weight: 300;
+  font-style: normal;
+}
+.new_a1{
+    font-size: 300%;
+    text-align: center;
+    margin: 0;
+    font-family: "Abril Fatface", serif;
+    font-weight: 300;
+  font-style: normal;
 }
 .img1{
     margin-left: 52%;
@@ -225,16 +251,57 @@ main{
 }
 .see_more{
    margin-top: 6%;
-   margin-left: 45%;
-   padding: 2%;
+   padding-right: 2%;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   padding-left: 2%;
+   border-radius: 5px;
+   background-color:black ;
+   color: white;
+}
+.see_more2{
+    margin-top: 6%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+    border-radius: 5px;
+    background-color:black ;
+    color: white;
+ }
+ .see_more3{
+    margin-top: 6%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+    border-radius: 5px;
+    background-color:black ;
+    color: white;
+ }
+.seemore{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.seemore2{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.seemore3{
+    display: flex;
+   align-items: center;
+    justify-content: center;
 }
 .new_a_card4{
     margin-left: 5%;
     width: 70%;
-    border: 1px solid white;
+    border: 2px solid rgb(255, 230, 0);
     padding-left: 2%;
    border-radius: 10px;
-   background-color: rgb(238, 227, 252);
+    nbackground-color:white;
+    background: url(purple\ aura\ wallpaper.jpg);
 }
 .new_a_card4:hover {
     box-shadow: 2px 2px 5px 2px #b6b6b6;
@@ -245,10 +312,10 @@ main{
 .new_a_card1{
     margin-left: 0;
     width: 70%;
-    border: 1px solid white;
+    border: 2px solid rgb(255, 230, 0);
     padding-left: 2%;
     border-radius: 10px;
-    background-color: rgb(238, 227, 252);
+    background: url(purple\ aura\ wallpaper.jpg);
 }
 .new_a_card1:hover {
     box-shadow: 2px 2px 5px 2px #b6b6b6;
@@ -267,8 +334,20 @@ main{
     margin-left: 5%;
     margin-right: 5%;
 }
+.sale_cards2{
+    display: none;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .ac_cards1{
     display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ac_cards2{
+    display: none;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -277,6 +356,7 @@ main{
     font-size: 50px;
     margin-left: 40px;
     margin-top: 150px;
+   
 }
 .vid_card{
     width: 400px;
@@ -290,7 +370,7 @@ main{
 .vidh3{
     position: relative;
     margin-left: 20px;
-    color: yellow;
+    color: rgb(255, 251, 32);
 }
 .vidp{
     color: rgb(54, 54, 54);
@@ -320,7 +400,9 @@ p{
     
 }
 .stars{
-    margin-left: 4%;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 1%;
 }
 @media (max-width:1080px){
     .img1{
